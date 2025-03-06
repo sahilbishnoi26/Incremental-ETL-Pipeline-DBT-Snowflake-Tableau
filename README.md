@@ -11,7 +11,7 @@ This project implements an **ELT pipeline** using **DBT** for data transformatio
 
 ## Architecture
 
-![architecture]()
+![architecture](https://github.com/sahilbishnoi26/Incremental-ETL-Pipeline-DBT-Snowflake-Tableau/blob/main/img1.png)
 
 ```
 Source → S3 → Snowflake (Staging) → DBT (Transform) → Snowflake (Final) → BI Tool
@@ -55,17 +55,6 @@ DBT processes only new or updated records:
 
 ```sh
 dbt run --select incremental_orders
-```
-
-## Project Structure
-
-```
-📂 dbt_project       # DBT models
-📂 scripts           # Python ingestion scripts
-📂 config            # Configurations
-generate_data.py     # Data generator
-load_to_snowflake.py # Loads S3 to Snowflake
-README.md            # Documentation
 ```
 
 ## Visualization
