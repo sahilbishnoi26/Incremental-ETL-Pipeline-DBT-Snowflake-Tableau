@@ -1,7 +1,6 @@
-This repo contains code used in these video tutorials:
-- https://youtu.be/KOd_KTgou4A?si=rn1l968rzFamDPRn
-- https://youtu.be/3aJz9_0AH_0?si=aANwfWVihecNmCpk
+# dbt_tutorial
 
+This is the code source repo used in this dbt tutorial video(s): https://youtu.be/KOd_KTgou4A?si=rn1l968rzFamDPRn
 
 ### Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
