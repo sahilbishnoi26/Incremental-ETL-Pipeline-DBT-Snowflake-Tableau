@@ -60,8 +60,3 @@ dbt run --select incremental_orders
 ## Visualization
 
 The transformed data is directly accessible in **Tableau** or other BI tools via Snowflake.
-
----
-
-**Suggested Repository Name:** `elt-pipeline-dbt-snowflake`  
-**Short Description:** "An end-to-end ELT pipeline using DBT, Snowflake, and S3 with incremental data processing."
