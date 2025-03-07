@@ -57,6 +57,3 @@ DBT processes only new or updated records:
 dbt run --select incremental_orders
 ```
 
-## Visualization
-
-The transformed data is directly accessible in **Tableau** or other BI tools via Snowflake.
